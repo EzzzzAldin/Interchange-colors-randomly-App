@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Shippori Antique B1", sans-serif;
+}
+
+#main-section h2 {
+  background-color: #263238;
+  padding: 8px;
+  color: #fff;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+#change-color {
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+  background-color: tomato;
+  font-family: "Shippori Antique B1", sans-serif;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 1s;
+}
+
+#change-color:hover {
+  background-color: #fa583b;
+  color: #fff;
+}
